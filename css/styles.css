@@ -45,6 +45,7 @@ h1 {
 	background-image: url('../img/city.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	color: #fff;
 	padding-bottom: 2em;
 }
@@ -54,6 +55,7 @@ h1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
+	background-attachment: fixed;
 	padding-bottom: 5em;
 	margin-top: 2em;
 }
