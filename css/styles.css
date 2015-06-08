@@ -4,12 +4,7 @@ body {
 	color: #34495e;
 	position: relative;
 }
- 
-.introduction {
-	color: #fff;
-	text-align: center;
-	
-}
+
 
 h1 {
 	text-align: center;
@@ -46,6 +41,14 @@ h1 {
 	background-color: #fff;
 }
 
+#about {
+	background-image: url('../img/city.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 2em;
+}
+
 #contact {
 	background-image: url('../img/piano.jpeg');
 	background-repeat: no-repeat;
@@ -63,6 +66,7 @@ h1 {
 .skills {
 	background-color: #376a74;
 	color: #FFF;
+	border: 1px #fff solid;
 }
  
  
