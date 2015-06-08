@@ -1,0 +1,249 @@
+/* BACKGROUNDS AND COLORS */
+body {
+	background-color: #fffeea;
+	color: #34495e;
+	position: relative;
+}
+ 
+.introduction {
+	color: #fff;
+	text-align: center;
+	
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.heading {
+	margin-top: 8em;
+}
+
+.carousel-caption  {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.carousel-caption h3 {
+	margin-top: -20em;
+}
+
+
+.carousel-caption p {
+	text-transform: lowercase;
+}
+
+.carousel-caption h1 {
+	font-size: 4em;
+}
+
+.nav li a {
+	text-transform: uppercase;
+}
+
+.navbar .container-fluid {
+	background-color: #fff;
+}
+
+#contact {
+	background-image: url('../img/piano.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 5em;
+	margin-top: 2em;
+}
+ 
+.nav li a:hover {
+	color: #000;
+	-webkit-transition: color 600ms;
+}
+ 
+.skills {
+	background-color: #376a74;
+	color: #FFF;
+}
+ 
+ 
+.social > button {
+	background-color: transparent;
+	border: 0.25rem #fff solid;
+	height: 4rem;
+	width: 8rem;
+}
+ 
+.social > button > a{
+	text-decoration: none;
+	color: #fff;
+}
+ 
+footer {
+	background-color: #376a74;
+	color: #fff;
+}
+ 
+ 
+.glyphicon:hover {
+	color: #fff;
+	-webkit-transition: color 1200ms;
+}
+ 
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour {
+	background-color: #bc964f;
+	color: #fff;
+}
+ 
+.panel a:hover {
+	color: #000;
+	-webkit-transition: color 600ms;
+}
+ 
+.panel-body {
+	color: #000;
+}
+ 
+.faq-footer {
+	background-color: transparent;
+}
+ 
+/* TYPOGRAPHY */
+ 
+* {
+	font-family: 'PT Sans', 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+	font-style: italic;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+ 
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+ 
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+}
+ 
+ 
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+footer p {
+	text-transform: uppercase;
+}
+ 
+ 
+/* POSITIONING */
+
+ 
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.carousel-caption {
+	position: relative;
+}
+
+p {
+	-webkit-margin-before: 0;
+}
+#skill_list {
+	margin-left: 50px;
+}
+ 
+.main_text {
+	clear: both;
+	padding-top: 4rem;
+}
+ 
+.header {
+	margin-bottom: 40px;
+	margin-top: 7.5%;
+}
+ 
+.header h1 {
+	text-align: center;
+}
+ 
+.image {
+	display: inline-block;
+	float: left;
+	margin-right: 0.5rem;
+}
+ 
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	position: relative;
+	margin: 0 0.75rem;
+}
+ 
+.intro {
+	width: 35rem;
+}
+ 
+footer {
+	text-align: center;
+	padding: 2.5% 0;
+	bottom: 0;
+}
+ 
+.big-paragraph {
+	margin: 2.5% 20% 0 20%;
+	text-align: center;
+}
+ 
+.email-address {
+	text-transform: uppercase;
+	text-align: center;
+}
+ 
+.small-paragraph {
+	margin: 2.5% 20% 0 20%;
+	text-align: center;
+	font-style: italic;
+	font-weight: 300;
+}
+ 
+.address {
+	margin-top: 2.5%;
+}
+ 
+.address > h1 {
+	margin: auto;
+	text-align: center;
+}
+ 
+.social {
+	text-align: center;
+	margin-top: 2.5%;
+}
+ 
+.social > button {
+	margin: 0 0.25em;
+}
+
+.navbar-toggle {
+	background-color: #000;
+}
+
+.address {
+	text-align: center;
+}
