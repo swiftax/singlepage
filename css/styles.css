@@ -71,28 +71,14 @@ h1 {
 	border: 1px #fff solid;
 }
  
- 
-.social > button {
-	background-color: transparent;
-	border: 0.25rem #fff solid;
-	height: 4rem;
-	width: 8rem;
-}
- 
-.social > button > a{
-	text-decoration: none;
-	color: #fff;
-}
- 
-footer {
-	background-color: #376a74;
-	color: #fff;
-}
- 
- 
 .glyphicon:hover {
 	color: #fff;
 	-webkit-transition: color 1200ms;
+}
+
+ img {
+	height: 100%;
+	width: 100%;
 }
  
 #headingOne,
@@ -112,6 +98,23 @@ footer {
 	color: #000;
 }
  
+ .social > button {
+	background-color: transparent;
+	border: 0.25rem #fff solid;
+	height: 4rem;
+	width: 8rem;
+}
+ 
+.social > button > a{
+	text-decoration: none;
+	color: #fff;
+}
+ 
+footer {
+	background-color: #376a74;
+	color: #fff;
+}
+
 .faq-footer {
 	background-color: transparent;
 }
