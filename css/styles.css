@@ -216,6 +216,15 @@ p {
 	.carousel-caption {
 		font-size: 50%;
 	}
+	.address h2 {
+		font-size: 75%;
+	}
+	h2.email-address  {
+		font-size: 75%;
+	}
+	.intro p {
+		font-size: 0.75em;
+	}
 }
 
 @-ms-viewport {
