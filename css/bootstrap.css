@@ -4500,6 +4500,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-brand {
   color: #34495e;
 }
+
+@media (max-width: 480px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 0.75em;
+  }
+}
+
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #000;
