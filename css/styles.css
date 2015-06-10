@@ -209,6 +209,9 @@ p {
 	.skills {
 		width: 100%;
 	}
+	.navbar-brand {
+		font-size: 0.75em;
+	}
 }
 
 @-ms-viewport {
