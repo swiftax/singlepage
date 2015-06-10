@@ -209,8 +209,11 @@ p {
 	.skills {
 		width: 100%;
 	}
-	.navbar-brand {
-		font-size: 0.75em;
+	.carousel-caption h3 {
+		margin-top: 20em;
+	}
+	.carousel-caption {
+		font-size: 50%;
 	}
 }
 
