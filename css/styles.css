@@ -175,6 +175,7 @@ p {
 #skill_list {
 	margin-left: 50px;
 }
+
  
 .main_text {
 	clear: both;
@@ -203,6 +204,17 @@ p {
 	position: relative;
 	margin: 0 0.75rem;
 }
+
+@media (max-width: 480px) {
+	.skills {
+		width: 100%;
+	}
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
  
 .intro {
 	width: 35rem;
