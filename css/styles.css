@@ -208,7 +208,17 @@ p {
 @media (max-width: 480px) {
 	.skills {
 		width: 100%;
+		text-align: center;
 	}
+
+	#skill_list li {
+		text-align: left;
+	}
+
+	h3.welcome {
+		margin-bottom: -3em;
+	}
+
 	.carousel-caption h3 {
 		margin-top: 20em;
 		font-size: 75%;
@@ -217,13 +227,13 @@ p {
 		font-size: 50%;
 	}
 	.address h2 {
-		font-size: 80%;
+		font-size: 90%;
 	}
 	h2.email-address  {
-		font-size: 80%;
+		font-size: 90%;
 	}
 	.intro p {
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 }
 
