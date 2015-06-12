@@ -76,6 +76,10 @@ h1 {
 	-webkit-transition: color 1200ms;
 }
 
+.glyphicon {
+	color: #bc964f;
+}
+
  img {
 	height: 100%;
 	width: 100%;
@@ -108,6 +112,17 @@ h1 {
 .social > button > a{
 	text-decoration: none;
 	color: #fff;
+}
+
+#submit-button {
+	background-color:#376a74;
+	color: #fff;
+}
+
+#submit-button:hover {
+	background-color: #bc964f;
+	color: #fff;
+	-webkit-transition: background-color 1400ms;
 }
  
 footer {
@@ -151,6 +166,14 @@ h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
+.form-horizontal {
+	color: #000;
+}
+
+.control-label {
+	color: #fff;
+}
  
 footer p {
 	text-transform: uppercase;
@@ -159,7 +182,12 @@ footer p {
  
 /* POSITIONING */
 
- 
+#contact > .container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -226,6 +254,10 @@ p {
 	font-style: italic;
 	font-weight: 300;
 }
+
+.form-group > .form-control {
+	width: 70%;
+}
  
 .address {
 	margin-top: 2.5%;
@@ -239,6 +271,10 @@ p {
 .social {
 	text-align: center;
 	margin-top: 2.5%;
+}
+
+.btn-primary {
+	width: 100%;
 }
  
 .social > button {
