@@ -10,6 +10,10 @@
       <link href='http://fonts.googleapis.com/css?family=PT+Sans|Roboto' rel='stylesheet' type='text/css'>
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
+
+
+
+<!-- End of Head -->
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -106,37 +110,46 @@
 
         <div class="row">
             <div class="col-md-4">
-                <h2>Portfolio Concept</h2>
+                <h2>Start Up Consulting</h2>
 
-                <p>My goal is to demonstrate my range of expertise from
-                business advisory services to building apps for small
-                businesses through my portfolio.</p>
-
-                <p><a class="btn btn-default" href="#">View details
-                &raquo;</a></p>
+                <p>We provide start ups with the tools to build a good foundation from the beginning in the core aspects of business, including business structuring, accounting, tax, general counsel and marketing. </p>
+             <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">View More</button>
+               <!-- <p><a class="btn btn-default" href="#">View details
+                &raquo;</a></p> Only for a link--> 
             </div>
 
             <div class="col-md-4">
-                <h2>Project Goals</h2>
+                <h2>Web Design and Development</h2>
 
-                <p>My goal is to build this portfolio out to become more
-                interactive for the user and include future web applications
-                built through RoR.</p>
-
-                <p><a class="btn btn-default" href="#">View details
-                &raquo;</a></p>
+                <p>We will bring your vision to life. We utilize the following technologies: 
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
+                  <li>JQuery</li>
+                  <li>Ruby on Rails</li>
+                </ul>
+                </p>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">View More</button>
+                <!--<p><a class="btn btn-default" href="#">View details
+                &raquo;</a></p> Only for a link-->
             </div>
 
             <div class="col-md-4">
-                <h2>Course Goals</h2>
+                <h2>Software Consulting</h2>
 
-                <p>My goal is to develop my skills in Ruby and Rails and
-                javascript. My end goal is become a full-time developer and to
-                be able to take ideas from entrepreneurs and bring them to
-                life.</p>
-
-                <p><a class="btn btn-default" href="#">View details
-                &raquo;</a></p>
+                <p>We will guide to the right software solutions for your business. We specialize is guiding small businesses with the following software solutions: 
+                <ul>
+                  <li>Accounting </li>
+                  <li><a href="#" title="Customer Relationship Management" id="CRM">CRM </a> </li>
+                  <li>Productivity </li>
+                  <li>Project Management </li>
+                  <li>Proposals</li>
+                </ul>
+                </p>
+             <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">View More</button>
+               <!-- <p><a class="btn btn-default" href="#">View details
+                &raquo;</a></p> Only for a link-->
             </div>
         </div>
     </div>
@@ -427,5 +440,19 @@ var $root = $('html, body');
       return false;
     });
     </script>
+
+    <! -- Tooltip -->
+  <script>
+  $(document).ready(function () {
+    $('#CRM').tooltip();
+  });
+  </script>
+
+  <script>
+  $(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+<!-- End of Tooltip -->
 </body>
 </html>
