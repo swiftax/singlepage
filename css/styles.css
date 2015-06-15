@@ -79,6 +79,10 @@ button.navbar-toggle {
 	height: 100%;
 	width: 100%;
 }
+
+.btn-primary {
+	background-color: #376a74;
+}
  
 #headingOne,
 #headingTwo,
@@ -151,8 +155,7 @@ footer {
 	font-style: italic;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-	text-decoration: underline;
-	font-weight: 900;
+	font-weight: 500;
 }
 
  
@@ -287,6 +290,12 @@ p {
 
  .contact-heading {
 	margin: 2.5% 20% 0 20%;
+	text-align: center;
+}
+
+#visible-comment {
+	font-size: 3em;
+	font-style: italic; 
 	text-align: center;
 }
  
