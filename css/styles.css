@@ -41,6 +41,7 @@ h1 {
 	background-color: #fff;
 }
 
+
 #about {
 	background-image: url('../img/city.png');
 	background-repeat: no-repeat;
@@ -50,19 +51,13 @@ h1 {
 	padding-bottom: 2em;
 }
 
-#contact {
-	background-image: url('../img/piano.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #fff;
-	background-attachment: fixed;
-	padding-bottom: 5em;
-	margin-top: 2em;
-}
- 
 .nav li a:hover {
 	color: #000;
 	-webkit-transition: color 600ms;
+}
+
+button.navbar-toggle {
+	background-color: #376a74;
 }
  
 .skills {
@@ -101,6 +96,18 @@ h1 {
 .panel-body {
 	color: #000;
 }
+
+
+#contact {
+	background-image: url('../img/piano.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+	padding-bottom: 5em;
+	margin-top: 2em;
+}
+
  
  .social > button {
 	background-color: transparent;
@@ -244,11 +251,13 @@ p {
 .learn-more {
 	text-align: left;
 	float: left;
+	padding-top: 1em;
 }
 
 .modal-button {
 	float: right;
 	padding: 0.9375em;
+	margin-top: 4em;
 }
  
 .modal-body {
@@ -271,15 +280,16 @@ p {
 	padding-top: 1em;
 }
 
+#contact > .container {
+	width: 70%;
+	margin: 0 auto;
+}
+
  .contact-heading {
 	margin: 2.5% 20% 0 20%;
 	text-align: center;
 }
  
-.email-address {
-	text-transform: uppercase;
-	text-align: center;
-}
  
 .small-paragraph {
 	margin: 2.5% 20% 0 20%;
@@ -309,19 +319,8 @@ p {
 	margin: 0 0.25em;
 }
 
-.navbar-toggle {
-	background-color: #000;
-}
-
 .address {
 	text-align: center;
-}
-
-
-
-#contact > .container {
-	width: 70%;
-	margin: 0 auto;
 }
 
 footer {
