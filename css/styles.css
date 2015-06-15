@@ -364,13 +364,9 @@ footer {
 		font-size: 50%;
 	}
 
-	.modal-body {
+	.modal-lg {
 	height: 300px;
 }
-
-	#resume {
-		height: 300px;
-	}
 
 	.address h2 {
 		font-size: 90%;
