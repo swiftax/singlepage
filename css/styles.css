@@ -293,8 +293,9 @@ p {
 	text-align: center;
 }
 
-#visible-comment {
-	font-size: 3em;
+#visible-comment,
+#charCount {
+	font-size: 2.5em;
 	font-style: italic; 
 	text-align: center;
 }
