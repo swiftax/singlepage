@@ -365,12 +365,8 @@ footer {
 	}
 
 	.modal-body {
-	height: 350px;
+	height: 300px;
 }
-
-	.modal {
-		width: 80%;
-	}
 
 	.address h2 {
 		font-size: 90%;
