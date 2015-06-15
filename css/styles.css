@@ -248,15 +248,15 @@ p {
 
 .modal-button {
 	float: right;
-	padding: 15px;
+	padding: 0.9375em;
 }
  
 .modal-body {
-	height: 500px;
+	height: 31.25em;
 }
 
 #resume {
-	padding: 10px;
+	padding: 0.625em;
 	width: 100%;
 	height: 100%;
 }
