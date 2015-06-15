@@ -242,17 +242,13 @@ p {
 /* FAQ */
 
 .learn-more {
-	text-align: center;
+	text-align: left;
+	float: left;
 }
-
-#FAQ h1 {
-	padding-top: 1.25em;
-} 
 
 .modal-button {
 	float: right;
-	margin-top: -3em;
-	padding-right: 1em;
+	padding: 15px;
 }
  
 .modal-body {
@@ -366,16 +362,6 @@ footer {
 
 	.carousel-caption {
 		font-size: 50%;
-	}
-
-	.learn-more {
-		float: left;
-		text-align: left;
-	}
-
-	.modal-button {
-		float: right;
-		padding: 15px;
 	}
 
 	.address h2 {
